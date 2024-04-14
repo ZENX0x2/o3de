@@ -41,3 +41,4 @@ urllib3==1.26.4 \
     --hash=sha256:e7b021f7241115872f92f43c6508082facffbd1c048e3c6e2bb9c2a157e28937
 tempfile2==0.1.1 \
     --hash=sha256:77fdd256c16804053d3d588168b79595099ea5e874c3fb171893b0ababd10340
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
